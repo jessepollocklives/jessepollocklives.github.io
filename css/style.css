@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #666666;
+  font-family: 'Tinos', serif;
+}
+
+#wrapper {
+  background-color: #c0c0c0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+header, nav, address, .resume-section h2, .technologies h2, .references, footer {
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 1%;
+}
+
+.resume-section, .technologies, .references {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+nav a, .resume-section ul, .technologies ul, .resume-section p, .references p, address {
+  font-size: 1.5em;
+}
+
+a, a:visited {
+  color: #000000;
+}
+
+nav a {
+  margin: 1%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5%;
+}
