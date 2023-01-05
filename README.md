@@ -2,7 +2,7 @@
 
 Please visit the url to view my resume and work examples
 
-Thank you and have a great day!
+Thanks have a great day
 
 
 
