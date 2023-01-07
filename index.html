@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--Stylesheets-->
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap"
+      rel="stylesheet">
+
+    <!-- JS for Nav -->
+    <script src="js/nav.js" defer></script>
+    <script src="https://kit.fontawesome.com/295b1821c2.js"
+      crossorigin="anonymous" defer></script>
 
     <title>Jesse Pollock</title>
   </head>
@@ -16,17 +21,20 @@
     <div id="wrapper">
       <header>
         <h1>Jesse Pollock</h1>
-        <nav>
-          <a href="index.html">Resume</a>
-          <a href="code-examples.html">Code Examples</a>
-          <!--<a href="">Certificates</a> COMING SOON-->
-          <a rel="nofollow" href="https://www.linkedin.com/in/jesse-pollock/" target="_blank">LinkedIn</a>
-        </nav>
+        <div id="nav-container">
+          <a href="#" id="nav-active">Resume</a>
+          <nav id="nav-menu">
+            <ul>
+              <li class="nav-link"><a href="code-examples.html">Code Examples</a></li>
+              <li class="nav-link"><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <button id="nav-button" class="icon">
+            <i class="fa-solid fa-bars fa-lg"></i>
+          </button>
+        </div>
       </header>
       <main>
-        <address>
-          Email: <a href="mailto:jessepollocklives@gmail.com">jessepollocklives@gmail.com</a>
-        </address>
         <section class="resume-section">
           <h2>Education</h2>
           <ul>
@@ -52,16 +60,9 @@
         <section class="resume-section">
           <h2>Experience</h2>
           <ul>
-            <li>Online Banking Consultant, Ally Financial, Shoreview, MN,
-              November
-              2021 - July 2022</li>
-            <li>Software Support Specialist, PartsTrader LLC, Chicago, IL, April
-              2016 - May 2018</li>
-            <li>Software Support Concierge, Volusion LLC, Austin, TX, January
-              2012
-              - January 2013</li>
-            <li>IT Support Intern, Urban Ventures Youth Foundation, Minneapolis,
-              MN, August 2010 - July 2011</li>
+            <li>Online Banking Consultant, Shoreview, MN, Nov 2021 - Jul 2022</li>
+            <li>Software Support Specialist, PartsTrader LLC, Chicago, IL, Apr 2016 - May 2018</li>
+            <li>IT Support Intern, Urban Ventures, MinneapolisM, MN, Aug 2010 - Jul 2011</li>
           </ul>
         </section>
         <section class="resume-section">
