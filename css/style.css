@@ -102,7 +102,6 @@ nav a,
 .resume-section ul,
 .resume-section p,
 address,
-.code-examples h3,
 .code-examples p,
 .code-examples a,
 .code-examples li::marker {
@@ -125,3 +124,9 @@ footer {
   height: 100px;
   width: 100%;
 }
+
+@media only screen and (min-width: 1025px){
+    .code-examples h3 {
+      font-size: 1.5em;
+    }
+  }
