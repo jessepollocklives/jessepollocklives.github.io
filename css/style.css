@@ -35,7 +35,7 @@ nav ul li {
 
 nav a {
   color: #000;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: normal;
   text-decoration: none;
 }
@@ -43,7 +43,7 @@ nav a {
 #nav-container a, #nav-container button {
   color: white;
   display: block;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: normal;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -86,11 +86,11 @@ nav a {
 /* Content */
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .resume-section, .code-examples {
@@ -105,7 +105,7 @@ address,
 .code-examples p,
 .code-examples a,
 .code-examples li::marker {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 a, a:visited {
@@ -127,6 +127,6 @@ footer {
 
 @media only screen and (min-width: 1025px){
     .code-examples h3 {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
   }
